@@ -3,9 +3,9 @@ import queryString from 'query-string';
 import io from 'socket.io-client';
 
 import './Chat.css';
-import InfoBar from '../InfoBar/infobar';
-import Input from '../Input/Input';
-import Messages from '../Messages/messages';
+import InfoBar from '../InfoBar/infobar.js';
+import Input from '../Input/Input.jsx';
+import Messages from '../Messages/messages.jsx';
 import TextContainer from '../TextContainer/TextContainer';
 let socket;
 
